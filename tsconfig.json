@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "baseUrl": "./src/",
+    "paths": {
+      "@composition": ["composition/index.ts"],
+      "@core": ["core/index.ts"],
+      "@domain": ["domain/index.ts"],
+
+      "@adapters/*": ["adapters/*"],
+      "@composition/*": ["composition/*"],
+      "@effects/*": ["effects/*"]
+    }
+  }
+}
