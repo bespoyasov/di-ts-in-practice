@@ -1,5 +1,5 @@
 import {container} from './composition';
-import {Initiator} from './core';
+import {AppInitiator} from './core';
 
-const service = container.get<Initiator>();
+const service = container.get<AppInitiator>();
 service.init();

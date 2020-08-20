@@ -1,5 +1,3 @@
-import {Initiator} from './types';
-
 import {Timer} from '../effects/timer';
 import {Logger} from '../effects/logger';
 import {EventHandler} from '../effects/eventHandler';
@@ -7,7 +5,7 @@ import {EventHandler} from '../effects/eventHandler';
 import {DateTimeSource} from '../adapters/dateTimeSource';
 import {UuidGenerator} from '../adapters/uuidGenerator';
 
-export class AppInitiator implements Initiator {
+export class AppInitiator {
   constructor(
     private dateTimeSource: DateTimeSource,
     private idGenerator: UuidGenerator,
