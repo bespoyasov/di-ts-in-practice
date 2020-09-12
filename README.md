@@ -1,2 +1,3 @@
 # di-ts-in-practice
-Пример кода для статьи о DI 
+
+A sample app for a post about dependency injection with TypeScript.
